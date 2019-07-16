@@ -1,0 +1,155 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2015-03-08 00:26:23 --- CRITICAL: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\views\template.php [ 25 ] in C:\wamp\www\auconnect\application\views\template.php:25
+2015-03-08 00:26:23 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\template.php(25): Kohana_Core::error_handler(8, 'Trying to get p...', 'C:\\wamp\\www\\auc...', 25, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 C:\wamp\www\auconnect\application\classes\Controller\template\application.php(42): Kohana_Controller_Template->after()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(87): Controller_Template_Application->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Mart))
+#8 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\auconnect\application\views\template.php:25
+2015-03-08 00:27:16 --- CRITICAL: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\views\template.php [ 25 ] in C:\wamp\www\auconnect\application\views\template.php:25
+2015-03-08 00:27:16 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\template.php(25): Kohana_Core::error_handler(8, 'Trying to get p...', 'C:\\wamp\\www\\auc...', 25, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#4 C:\wamp\www\auconnect\application\classes\Controller\template\application.php(42): Kohana_Controller_Template->after()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(87): Controller_Template_Application->after()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Mart))
+#8 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\auconnect\application\views\template.php:25
+2015-03-08 03:48:40 --- CRITICAL: View_Exception [ 0 ]: The requested view user/register could not be found ~ SYSPATH\classes\Kohana\View.php [ 257 ] in C:\wamp\www\auconnect\system\classes\Kohana\View.php:137
+2015-03-08 03:48:40 --- DEBUG: #0 C:\wamp\www\auconnect\system\classes\Kohana\View.php(137): Kohana_View->set_filename('user/register')
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(30): Kohana_View->__construct('user/register', NULL)
+#2 C:\wamp\www\auconnect\application\classes\Controller\user.php(95): Kohana_View::factory('user/register')
+#3 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(84): Controller_User->action_ticket()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#6 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\auconnect\system\classes\Kohana\View.php:137
+2015-03-08 03:49:05 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: errors ~ APPPATH\views\pages\ticket.php [ 36 ] in C:\wamp\www\auconnect\application\views\pages\ticket.php:36
+2015-03-08 03:49:05 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\pages\ticket.php(36): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\wamp\\www\\auc...', 36, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\wamp\www\auconnect\system\classes\Kohana\Response.php(160): Kohana_View->__toString()
+#5 C:\wamp\www\auconnect\application\classes\Controller\user.php(95): Kohana_Response->body(Object(View))
+#6 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(84): Controller_User->action_ticket()
+#7 [internal function]: Kohana_Controller->execute()
+#8 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#11 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#12 {main} in C:\wamp\www\auconnect\application\views\pages\ticket.php:36
+2015-03-08 03:49:05 --- CRITICAL: ErrorException [ 1 ]: Call to undefined method Response::bind() ~ APPPATH\classes\Controller\user.php [ 96 ] in file:line
+2015-03-08 03:49:05 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-03-08 03:51:43 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'if' (T_IF) ~ APPPATH\classes\Controller\user.php [ 64 ] in file:line
+2015-03-08 03:51:43 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-03-08 04:26:36 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'endif' (T_ENDIF) ~ APPPATH\views\pages\enter.php [ 39 ] in file:line
+2015-03-08 04:26:36 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-03-08 04:26:54 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'endif' (T_ENDIF) ~ APPPATH\views\pages\enter.php [ 39 ] in file:line
+2015-03-08 04:26:54 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2015-03-08 04:49:48 --- CRITICAL: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH\orm\classes\Kohana\ORM.php [ 1275 ] in C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php:1302
+2015-03-08 04:49:48 --- DEBUG: #0 C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php(1302): Kohana_ORM->check(NULL)
+#1 C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#2 C:\wamp\www\auconnect\application\classes\Controller\user.php(83): Kohana_ORM->save()
+#3 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(84): Controller_User->action_ticket()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#6 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php:1302
+2015-03-08 04:51:19 --- CRITICAL: ORM_Validation_Exception [ 0 ]: Failed to validate array ~ MODPATH\orm\classes\Kohana\ORM.php [ 1275 ] in C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php:1302
+2015-03-08 04:51:19 --- DEBUG: #0 C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php(1302): Kohana_ORM->check(NULL)
+#1 C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php(1421): Kohana_ORM->create(NULL)
+#2 C:\wamp\www\auconnect\application\classes\Controller\user.php(83): Kohana_ORM->save()
+#3 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(84): Controller_User->action_ticket()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#6 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\auconnect\modules\orm\classes\Kohana\ORM.php:1302
+2015-03-08 04:58:12 --- CRITICAL: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ APPPATH\views\pages\enter.php [ 40 ] in C:\wamp\www\auconnect\application\views\pages\enter.php:40
+2015-03-08 04:58:12 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\pages\enter.php(40): Kohana_Core::error_handler(2, 'Invalid argumen...', 'C:\\wamp\\www\\auc...', 40, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\wamp\www\auconnect\application\views\start.php(15): Kohana_View->__toString()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#6 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\auconnect\application\classes\Controller\user.php(33): Kohana_Controller_Template->after()
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(87): Controller_User->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#12 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#15 {main} in C:\wamp\www\auconnect\application\views\pages\enter.php:40
+2015-03-08 06:08:40 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: topic ~ APPPATH\views\pages\talk.php [ 121 ] in C:\wamp\www\auconnect\application\views\pages\talk.php:121
+2015-03-08 06:08:40 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\pages\talk.php(121): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\wamp\\www\\auc...', 121, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\wamp\www\auconnect\application\views\template.php(46): Kohana_View->__toString()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#6 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\auconnect\application\classes\Controller\template\application.php(30): Kohana_Controller_Template->after()
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(87): Controller_Template_Application->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Talk))
+#12 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#15 {main} in C:\wamp\www\auconnect\application\views\pages\talk.php:121
+2015-03-08 06:09:26 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: topic ~ APPPATH\views\pages\talk.php [ 122 ] in C:\wamp\www\auconnect\application\views\pages\talk.php:122
+2015-03-08 06:09:26 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\pages\talk.php(122): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\wamp\\www\\auc...', 122, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\wamp\www\auconnect\application\views\template.php(46): Kohana_View->__toString()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#6 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\auconnect\application\classes\Controller\template\application.php(30): Kohana_Controller_Template->after()
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(87): Controller_Template_Application->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Talk))
+#12 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#15 {main} in C:\wamp\www\auconnect\application\views\pages\talk.php:122
+2015-03-08 06:09:36 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: topic ~ APPPATH\views\pages\talk.php [ 122 ] in C:\wamp\www\auconnect\application\views\pages\talk.php:122
+2015-03-08 06:09:36 --- DEBUG: #0 C:\wamp\www\auconnect\application\views\pages\talk.php(122): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\wamp\\www\\auc...', 122, Array)
+#1 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#2 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#3 C:\wamp\www\auconnect\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\wamp\www\auconnect\application\views\template.php(46): Kohana_View->__toString()
+#5 C:\wamp\www\auconnect\system\classes\Kohana\View.php(61): include('C:\\wamp\\www\\auc...')
+#6 C:\wamp\www\auconnect\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\wamp\\www\\auc...', Array)
+#7 C:\wamp\www\auconnect\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\auconnect\application\classes\Controller\template\application.php(30): Kohana_Controller_Template->after()
+#9 C:\wamp\www\auconnect\system\classes\Kohana\Controller.php(87): Controller_Template_Application->after()
+#10 [internal function]: Kohana_Controller->execute()
+#11 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Talk))
+#12 C:\wamp\www\auconnect\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#13 C:\wamp\www\auconnect\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#14 C:\wamp\www\auconnect\index.php(118): Kohana_Request->execute()
+#15 {main} in C:\wamp\www\auconnect\application\views\pages\talk.php:122
