@@ -1,19 +1,15 @@
-# Kohana PHP Framework
+# AUconnect(Archived)
 
-[Kohana](http://kohanaframework.org/) is an elegant, open source, and object oriented HMVC framework built using PHP5, by a team of volunteers. It aims to be swift, secure, and small.
+AUconnect is a web application used to develop ideas, collaborate, innovate, and exchange or buy things that are not relevant to a student anymore and can be helpful to others in the university.
 
-Released under a [BSD license](http://kohanaframework.org/license), Kohana can be used legally for any open source, commercial, or personal project.
+Released in 2014 at https://auconnect.in is now retired and deprecated.
 
-## Documentation
-Kohana's documentation can be found at <http://kohanaframework.org/documentation> which also contains an API browser.
+## Features
+* Talk page, where users could post recent college events, news, ideas, etc.
+* Mart page, where users could post Ads.
 
-The `userguide` module included in all Kohana releases also allows you to view the documentation locally. Once the `userguide` module is enabled in the bootstrap, it is accessible from your site via `/index.php/guide` (or just `/guide` if you are rewriting your URLs).
+## Tech Stacks
+* Kohana (PHP5 HMVC framework)
+* Bootstrap CSS
+* MySQL
 
-## Reporting bugs
-If you've stumbled across a bug, please help us out by [reporting the bug](http://dev.kohanaframework.org/projects/kohana3/) you have found. Simply log in or register and submit a new issue, leaving as much information about the bug as possible, e.g.
-
-* Steps to reproduce
-* Expected result
-* Actual result
-
-This will help us to fix the bug as quickly as possible, and if you'd like to fix it yourself feel free to [fork us on GitHub](https://github.com/kohana) and submit a pull request!
