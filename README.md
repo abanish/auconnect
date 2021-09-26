@@ -1,4 +1,4 @@
-# AUconnect(Archived)
+# AUconnect (Archived)
 
 AUconnect is a web application used to develop ideas, collaborate, innovate, and exchange or buy things that are not relevant to a student anymore and can be helpful to others in the university.
 
